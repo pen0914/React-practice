@@ -1,4 +1,4 @@
-const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   const { color, children } = props;
   const contentStyle = {
     //CSSのプロパティとカテゴリー名が同じ時、省略可
@@ -9,4 +9,4 @@ const ColorfulMessage = (props) => {
   return <p style={contentStyle}>{children}</p>;
 };
 
-export default ColorfulMessage;
+//export default ColorfulMessage;
